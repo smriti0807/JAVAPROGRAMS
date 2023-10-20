@@ -1,0 +1,38 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        String str = "hello";
+        String strr = "world";
+        System.out.println("Hello, World!\n"+str.length());
+        System.out.println("\n"+str.toUpperCase());
+        System.out.println("\n"+str.toLowerCase());
+        System.out.println("\n"+str.substring(1));
+        System.out.println("\n"+str.substring(1,2)); 
+        System.out.println("\n"+str.replace("h","c"));
+        System.out.println("\n"+str.endsWith("lo"));
+        System.out.println("\n"+str.charAt(3));
+        System.out.println("\n"+str.indexOf("o"));
+        System.out.println(str+" "+ strr);
+        System.out.println(str.concat(strr));
+        if(str.compareTo(strr)==0){
+            System.out.println("yes\n");
+        }else {
+            System.out.println("No");
+        }
+        
+        
+    }
+} 
+//OutPut -
+Hello, World!
+5
+HELLO
+hello
+ello
+e
+cello
+true
+l
+4
+hello world
+helloworld
+No
